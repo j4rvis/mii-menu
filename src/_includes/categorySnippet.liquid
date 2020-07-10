@@ -1,0 +1,22 @@
+
+{% if category.dishes.size > 0 %}
+<div class="category--container pagebreak">
+    <p class="category--name">{{ category.name }}</p>
+    {% if category.description %}
+    <p class="category--description">{{ category.description }}</p>
+    {% endif %}
+
+    <ul>
+    {% for dish in dishes %}
+        {% if dish.dish_category.id == category.id %}
+        <li>
+            <p class="dish--name">{{ dish.name }}</p>
+            {% if dish.description %}
+            <p class="dish--description">{{ dish.description }}</p>
+            {% endif %}
+        </li>
+        {% endif %}
+    {% endfor %}
+    </ul>
+</div>
+{% endif %}

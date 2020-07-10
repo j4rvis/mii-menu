@@ -1,0 +1,57 @@
+body {
+    font-family: 'Roboto', serif;
+    text-align: center;
+}
+
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0;
+    margin: 0;  
+}
+
+p {
+    margin: 0;
+}
+
+.category--container {
+    margin-bottom: 24px;
+}
+
+.category--name {
+    color: #388E3C;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.category--description {
+    font-size: 16px;
+}
+
+.dish--name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.dish--description {
+    font-size: 16px;
+    font-style: italic;
+}
+
+@media print {
+    .pagebreak { page-break-before: always; } /* page-break-after works, as well */
+}
+
+.nice-bg-with-cards-and-shadow {
+    .body {
+        background: #F8F8F8;
+    }
+
+    .card {
+        box-shadow: 0 30px 60px rgba(0,0,0,.1);
+        border-radius: 10px;
+        border-width: 0;
+    }
+}

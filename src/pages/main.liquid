@@ -1,0 +1,9 @@
+---
+layout: template.liquid
+permalink: "index.html"
+---
+
+{% for c in dishCategories %}
+    {% include categorySnippet, category: c %}
+    
+{% endfor %}

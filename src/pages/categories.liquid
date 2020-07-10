@@ -1,0 +1,10 @@
+---
+layout: template.liquid
+pagination:
+    data: dishCategories
+    size: 1
+    alias: category
+permalink: "{{ category.name | slug }}/index.html"
+---
+
+{% include categorySnippet %}

@@ -1,0 +1,22 @@
+{
+  "name": "mii-meals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "eleventy",
+    "start": "eleventy --serve",
+    "dev": "LOG_LEVEL=DEBUG eleventy --serve --quiet=false",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "0.10.0",
+    "eleventy-plugin-sass": "1.0.0",
+    "html-minifier": "4.0.0",
+    "node-fetch": "^2.6.0",
+    "node-sass": "4.13.1",
+    "request": "2.88.0",
+    "terser": "^4.6.7"
+  }
+}
