@@ -13,6 +13,6 @@ echo "Clear files in deploy path $MENU_PATH"
 rm -r $MENU_PATH/*
 
 echo "Copy new file into deploy path $MENU_PATH"
-cp -r /dist $MENU_PATH
+cp -r dist $MENU_PATH
 
 cd --
