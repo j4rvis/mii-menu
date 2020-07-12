@@ -171,6 +171,14 @@ module.exports = {
                     "name": "Entrecote mit Rosmarinkartoffeln und Brokolli mit Sauce Hollondaise",
                     "description": ""
                 },
+                {
+                    "name": "Steaksandwich",
+                    "description": ""
+                },
+                {
+                    "name": "Bayrisches Schnitzel",
+                    "description": "mit Senf unter der Kruste"
+                },
             ]
         },
         {
@@ -178,7 +186,7 @@ module.exports = {
             "description": "",
             "dishes": [
                 {
-                    "name": "Lavecake",
+                    "name": "Bolognese",
                     "description": ""
                 }
             ]
@@ -188,9 +196,29 @@ module.exports = {
             "description": "",
             "dishes": [
                 {
-                    "name": "Bolognese",
+                    "name": "Wasser mit Gurke",
                     "description": ""
-                }
+                },
+                {
+                    "name": "Wasser mit Minze und Zitrone",
+                    "description": ""
+                },
+                {
+                    "name": "Wasser mit Grapefruit und Rosmarin",
+                    "description": ""
+                },
+                {
+                    "name": "Wasser mit Orange und Basilikum",
+                    "description": ""
+                },
+                {
+                    "name": "Moscito",
+                    "description": ""
+                },
+                {
+                    "name": "Coco Loco",
+                    "description": ""
+                },
             ]
         }
     ]
