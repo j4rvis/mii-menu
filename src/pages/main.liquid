@@ -3,7 +3,7 @@ layout: template.liquid
 permalink: "index.html"
 ---
 
-{% for c in dishCategories %}
+{% for c in data.categories %}
     {% include categorySnippet, category: c %}
     
 {% endfor %}
