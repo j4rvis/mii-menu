@@ -4,6 +4,7 @@ echo "Switching path"
 cd $MENU_APP_PATH
 
 echo "Update data"
+git stash
 git pull
 npm i
 echo "Generate new files"
