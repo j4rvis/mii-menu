@@ -15,4 +15,5 @@ rm -r $MENU_PATH/*
 echo "Copy new file into deploy path $MENU_PATH"
 cp -r dist $MENU_PATH
 
-cd --
+echo "Switch to previous path"
+cd -
